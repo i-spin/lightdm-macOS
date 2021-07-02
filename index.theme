@@ -1,0 +1,6 @@
+[theme]
+name=macos-login
+description=LightDM theme that is aimed to recreate the macOS login screen.
+engine=lightdm-webkit2-greeter
+url=index.html
+session=wayfire
