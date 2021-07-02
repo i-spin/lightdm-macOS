@@ -3,15 +3,16 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css"></link>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
     </head>
     <body>
         <img id="background" src="static/catalina.jpg">
+        <div id="topbar">
+            <p id="time"></p>
+        </div>
         <img id="user-profile" src="static/pfp.png" alt="user-profile">
         <div id="credientials">
             <input type="text" placeholder="Name" id="usrname"></input>
             <input type="password" placeholder="Password" id="passwd"></input>
-            <span class="material-icons md-light">play_circle_filled</span>
         </div>
         <select id="sessions" name="session"></select>
         <p id="message"></p>
